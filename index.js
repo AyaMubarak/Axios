@@ -7,7 +7,7 @@ async function getProducts() {
       return `<div class="product">
       <h1>${ele.title}</h1>
       <img src="${ele.thumbnail}" alt="${ele.thumbnail}">
-      <button class="details"><a href="/details/details.html?id=${ele.id}">details</a></button></div>`
+      <button class="details"><a href="../details/details.html?id=${ele.id}">details</a></button></div>`
     }).join("");
 
     console.log(response);
